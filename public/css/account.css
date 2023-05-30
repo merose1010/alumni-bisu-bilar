@@ -1,0 +1,199 @@
+/* SETTINGS */
+
+.settings-wrapper-1,
+.settings-wrapper,
+.settings-wrapper-2
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+
+}
+#settings
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    background-color: #0f68c1;
+    font-family: 'Poppins', sans-serif;
+    padding: 70px 80px;
+}
+
+#settings .alert
+{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+#settings .settings-row-1
+{
+    display: flex;
+}
+
+#settings .settings-wrapper-1
+{
+    width: 70%;
+}
+#settings .settings-wrapper-2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+#settings .settings-row-1
+{
+    display: flex;
+    gap: 20px;
+}
+
+#settings .settings-col-1
+{
+    width: 100%;
+}
+
+#settings .settings-col-1 .group
+{
+    display: flex;
+    gap: 20px;
+}
+#settings .settings-col-2
+{
+    text-align: center;
+}
+#settings .settings-col-2 #addphotoBtn
+{
+    width: 100;
+}
+
+#settings input 
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#settings input , 
+#settings button,
+#settings label ,
+#settings .fa-eye
+{
+    font-size: 13px;
+}
+
+#settings .addphoto img
+{
+    border: #000 1px solid;
+    box-shadow: 5px 3px 15px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#settings .addphoto img
+{
+    height: 200px;
+    width: 200px;
+}
+
+.settings-col-2 .img-button
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.settings-col-2 .db-user
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+}
+
+/* TABLES */
+#myAlert ,
+.table-responsive,
+#clientTable,
+#clientTable thead ,
+#clientTable tbody,
+#clientTable2,
+#clientTable2 thead ,
+#clientTable2 tbody ,
+#clientTable3,
+#clientTable3 thead ,
+#clientTable3 tbody 
+{
+    font-size: 13px;
+}
+
+@media (max-width:805px) {
+
+    #settings .addphoto img
+    {
+        width: 90px;
+        height: 90px;
+    }
+    #settings  .settings-col-1 .group label,
+    #settings  .settings-col-1 .group input,
+    #settings  .settings-row-1 button,
+    #settings  .settings-col-2 button,
+    #settings  .settings-wrapper button
+    {
+        font-size: 11px;
+    }
+    .settings-title
+    {
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width: 1200px)
+{
+    #settings .settings-row-1
+    {
+        flex-direction: column-reverse;
+    }
+    #settings .settings-wrapper-1 ,
+    #settings .settings-wrapper-2
+    {
+        width: 100%;
+    }
+
+ 
+}
+
+@media(max-width: 600px)
+{
+    #settings .settings-col-1 .group
+    {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #settings
+    {
+        padding: 20px 20px;
+    }
+
+    /* TABLES */
+    #myAlert ,
+    .table-responsive,
+    #clientTable,
+    #clientTable thead ,
+    #clientTable tbody,
+    #clientTable2,
+    #clientTable2 thead ,
+    #clientTable2 tbody ,
+    #clientTable3,
+    #clientTable3 thead ,
+    #clientTable3 tbody 
+    {
+        font-size: 11px;
+    }
+ 
+}

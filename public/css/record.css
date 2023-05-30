@@ -1,0 +1,283 @@
+#record_section
+{
+    padding: 70px 80px;
+    background: rgb(4, 85, 151);
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#record_section .record_title
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.alumniid_application_sec
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.alumniid_application
+{
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.alumniid_application .text
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+/* ---------------------------------- */
+
+
+.alumnimem_application_sec
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.alumnimem_application
+{
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.alumnimem_application .text
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+/* ---------------------------------- */
+
+.reissueance_application_sec
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.reissueance_application
+{
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.reissueance_application .text
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+/* ---------------------------------- */
+
+
+/* Modals */
+.modal-dialog h5 ,
+.modal-dialog .btn-close
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+
+.modal-dialog label,
+.modal-dialog input,
+.modal-dialog textarea,
+.modal-footer button,
+.modal-content span
+
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+
+#myAlert ,
+.table-responsive,
+#dbTable,
+#dbTable thead ,
+#dbTable tbody 
+{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.editPhoto img
+{
+    box-shadow: 5px 3px 15px -3px rgba(0, 0, 0, 0.25);
+    height: 200px;
+    width: 300px;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+
+
+
+
+/* EDIT MODAL */
+
+.modal-body
+{
+    display: flex;
+    gap: 20px;
+}
+
+.modal-body .group
+{
+    width: 100%;
+}
+
+.modal-body .group .input-field
+{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 0;
+    width: 100%;
+}
+
+.modal-body .group .input-field label
+{
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.modal-body .group .input-field label,
+.modal-body .group .input-field .text-danger ,
+.img-button button,
+.editPhoto p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.modal-body .group .input-field input,
+.modal-body .group .input-field select
+{
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    border: 1px solid #aaa;
+}
+
+
+@media (max-width: 600px) {
+    #record_section
+    {
+        padding: 70px 20px;
+
+    }
+
+    #record_section .record_title
+    {
+        font-size: 15px;
+    }
+    #record_section .sub-text
+    {
+        font-size: 14px;
+    }
+
+    .modal-body .group .input-field label,
+    .modal-body .group .input-field .text-danger ,
+    .img-button button,
+    .editPhoto p,
+    .modal-body .group .input-field input,
+    .modal-body .group .input-field select,
+    .modal-footer button
+    {
+        font-size: 12px;
+    }
+    .editPhoto img
+    {
+        width: 200px;
+    }
+    .modal-title
+    {
+        font-size: 12px;
+    }
+    #viewModal_alumni_id,
+    #viewModal_alumni_id thead ,
+    #viewModal_alumni_id tbody,
+    #viewModal_alumni_id tbody td,
+    #viewModal_alumni_id tbody tr span,
+
+    #viewModal_alumni_mem,
+    #viewModal_alumni_mem thead ,
+    #viewModal_alumni_mem tbody,
+    #viewModal_alumni_mem tbody td,
+    #viewModal_alumni_mem tbody tr span,
+
+    #viewModal_reissue,
+    #viewModal_reissue thead ,
+    #viewModal_reissue tbody,
+    #viewModal_reissue tbody td,
+    #viewModal_reissue tbody tr span
+    {
+        font-size: 10px;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+
+
+    .modal-body
+    {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+
+    .modal-body
+    {
+        flex-direction: column;
+    }
+    
+    .editPhoto img
+    {
+        height: 150px;
+        width: 100%;
+    }
+
+}

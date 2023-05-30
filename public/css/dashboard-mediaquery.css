@@ -1,0 +1,237 @@
+@media only screen and (max-width:800px)
+{
+/* DASHBOARD BOTTOM */
+.db-bottom-row
+{
+	flex-direction: column;
+
+}
+.db-bottom-col1 , .db-bottom-col2
+{
+    width: 100%;
+}
+.db-bottom-col2
+{
+    margin-bottom: 20px;
+}
+
+}
+
+
+/* DASHBOARD SIDE NAV */
+
+@media(max-width: 767px)
+{
+    #side_nav
+    {
+        margin-left: -300px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+    #side_nav.active
+    {
+        margin-left: 0;
+    }
+}
+
+
+/* ADD CAR */
+@media(max-width: 500px)
+{
+    .add-row
+    {
+        flex-direction: column;
+        gap: 0px;
+        
+    }
+    .add-col
+    {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1010px)
+{
+    .add-full-name
+    {
+        flex-direction: column;
+
+        
+    }
+}
+
+@media(max-width: 1150px)
+{
+    .add-full-address
+    {
+        flex-direction: column;
+
+        
+    }
+ 
+}
+
+@media(max-width: 400px)
+{
+    .addphoto-btn
+    {
+        width: 100%;
+    }
+
+    .addphoto img
+    {
+        height: 230px;
+        width: 100%;
+    }
+ 
+}
+
+
+
+
+/* SETTINGS */
+
+@media(max-width: 1258px)
+{
+    .settings-col-1
+    {
+        flex-basis: 50%;
+    }
+    .settings-col-2
+    {
+        flex-basis: 50%;
+    }   
+}
+
+@media(max-width: 1050px)
+{
+    .settings-row
+    {
+        flex-direction: column;
+    }
+    .settings-col-1
+    {
+        flex-basis: 100%;
+    }
+    .settings-col-2
+    {
+        flex-basis: 100%;
+    }   
+}
+
+@media(max-width: 635px)
+{
+    .edit-profile , .edit-address
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/* DASHBOARD CARD */
+
+@media(max-width: 575px)
+{
+        .progress-step::after
+    {
+
+        font-size: .60rem;
+        width: 60px;
+
+    }
+
+        .progressbar
+    {
+        margin: 20px 0 60px 0;
+    }
+    .progress-bar-container
+    {
+        padding: 0 40px
+    }
+}
+
+/* VIEW CAR IN REGISTERED VEHICLES */
+
+@media(max-width: 1190px)
+{
+    .car-info-col
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #viewcar_section1 , #viewcar_section2
+    {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media(max-width: 450px)
+{
+    .view-car-row img
+    {
+        height: 230px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* DASHBOARD LOGIN */
+
+@media(max-width: 450px)
+{
+    .dashboard-login-div
+    {
+        width: 100%;
+        padding: 60px 25px;
+        box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75);
+        
+
+    }
+
+    .dashboard-logo
+    {
+        width: 150px;
+    }
+
+    .dashboard-login
+    {
+        padding: 100px 20px;
+    }
+
+    .dashboard-login-title
+    {
+        font-size: 13px;
+    }
+
+    .fields input
+    {
+        font-size: 14px;
+    }
+    
+    .fields i
+    {
+        font-size: 14px;
+        margin: 13px 10px 0px 25px;
+    }
+
+    .dashboard-login-button
+    {
+        font-size: 14px;
+    }
+
+    .admin-email , .admin-password , .dashboard-login-button
+    {
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+
+
+}

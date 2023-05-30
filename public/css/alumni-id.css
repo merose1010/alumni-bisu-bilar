@@ -1,0 +1,308 @@
+#alumni-id-sec
+{
+    padding: 70px 80px;
+    background: rgb(4, 85, 151);
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    /* background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+/* #alumni-id-sec .overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 85, 151, 0.8);
+} */
+
+.alumni-id-wrapper
+{
+    background-color: #fff;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+
+.alumni-id-wrapper h2 
+{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+.alumni-id-wrapper p
+{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.alumni-id-wrapper hr
+{
+    border-top: dotted 2px;
+    color: #8f8282;
+    margin-bottom: 15px;
+}
+
+.alumni-id-wrapper .fields .sub-name
+{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.alumni-id-wrapper .fields .group
+{
+    display: flex;
+    gap: 20px;
+}
+
+.alumni-id-wrapper .fields .group .input-field
+{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 0;
+    width: 100%;
+}
+
+.alumni-id-wrapper .fields .input-field label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+
+.alumni-id-wrapper .fields .input-field input, select{
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 38px;
+    margin: 8px 0;
+    outline: none;
+}
+
+
+/* PAYMENT */
+
+.pay_med_wrapper
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pay_med_title,
+.pay_med_price
+{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.alumni-id-wrapper .fields .pay_med
+{
+    display: flex;
+}
+
+.alumni-id-wrapper .fields .radio-field
+{
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+
+}
+
+
+
+.alumni-id-wrapper .fields .radio-field input,
+.alumni-id-wrapper .fields .radio-field label
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.pay_med_content
+{
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.pay_med_content #radio1-content
+{
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: #148b04;
+    display: flex;
+    flex-direction: column;
+}
+
+.pay_med_content #radio2-content
+{
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: #148b04;
+}
+
+.pay_med_content #radio2-content img
+{
+    border: 1px solid #000;
+    width: 200px;
+}
+
+.pay_med_content #radio2-content .pay_med_text
+{
+    display: flex;
+}
+
+.pay_med_content #radio2-content .pay_med_input
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pay_med_content #radio2-content .pay_med_input input
+{
+    padding:  0px 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    height: 38px;
+    width: 300px;
+}
+
+
+.alumni-id-wrapper button[type="submit"]
+{
+    padding: 10px 20px;
+    font-size: 15px;
+    background: rgb(40,167,69);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.addphoto img
+{
+    box-shadow: 5px 3px 15px -3px rgba(0, 0, 0, 0.25);
+    height: 200px;
+    width: 300px;
+    border: 3px dashed #000;
+    margin-top: 10px;
+}
+.addphoto-btn
+{
+    border-radius: 5px;
+    padding: 5px 20px;
+    background: rgb(40,167,69);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    /* margin-top: 5px; */
+}
+
+.error-text
+{
+    color: red;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+
+
+    .alumni-id-wrapper
+    {
+        padding: 20px;
+    }
+    
+    .alumni-id-wrapper h2 
+    {
+        font-size: 15px;
+    }
+
+    .alumni-id-wrapper p,
+    .alumni-id-wrapper .fields .input-field label,
+    .alumni-id-wrapper .fields  .input-field input, select,
+    .alumni-id-wrapper button[type="button"],
+    .alumni-id-wrapper button[type="submit"],
+    .pay_med_title,
+    .pay_med_price,
+    .pay_med input,
+    .pay_med label,
+    #radio1-content span,
+    .pay_med_text span,
+    .pay_med_input input,
+    .pay_med_input label
+    {
+        font-size: 12px;
+    }
+
+    .alumni-id-wrapper .addphoto img
+    {
+        height: 150px;
+        width: 250px;
+    }
+
+    .alumni-id-wrapper .addphoto img
+    {
+        height: 150px;
+        width: 250px;
+    }
+
+}
+
+@media(max-width: 540px){
+    
+    #alumni-id-sec
+    {
+        padding: 60px 20px;
+        background: rgb(4, 85, 151);
+        width: 100%;
+        height: 100%;
+        margin-top: 70px;
+    }
+
+    .alumni-id-wrapper .addphoto img
+    {
+        height: 200px;
+        width: 100%;
+    }
+
+    .pay_med_content #radio2-content .pay_med_input input
+    {
+        width: 100%;
+    }
+
+  }
+
+  @media(max-width: 770px){
+    .alumni-id-wrapper .fields .group
+
+    {
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+  }

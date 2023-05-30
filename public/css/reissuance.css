@@ -1,0 +1,196 @@
+#alumni-reissuance-sec
+{
+    padding: 70px 80px;
+    background: rgb(4, 85, 151);
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    /* background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+/* #alumni-reissuance-sec .overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 85, 151, 0.8);
+} */
+
+.alumni-reissuance-wrapper
+{
+    background-color: #fff;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+
+.alumni-reissuance-wrapper h2 
+{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+.alumni-reissuance-wrapper p
+{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.alumni-reissuance-wrapper hr
+{
+    border-top: dashed 3px;
+    margin-bottom: 15px;
+}
+
+/* .alumni-reissuance-wrapper .fields span
+{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+} */
+
+.alumni-reissuance-wrapper .fields .group
+{
+    display: flex;
+    gap: 20px;
+}
+
+.alumni-reissuance-wrapper .fields .group .input-field
+{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 0;
+    width: 100%;
+    outline: none;
+}
+
+.alumni-reissuance-wrapper .fields .input-field label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+
+.alumni-reissuance-wrapper .fields .input-field input, select{
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 38px;
+    margin: 8px 0;
+}
+
+.alumni-reissuance-wrapper button[type="submit"]
+{
+    padding: 10px 20px;
+    font-size: 15px;
+    background: rgb(40,167,69);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.alumni-reissuance-wrapper .addphoto img
+{
+    box-shadow: 5px 3px 15px -3px rgba(0, 0, 0, 0.25);
+    height: 200px;
+    width: 300px;
+    border: 3px dashed #000;
+    margin-top: 10px;
+}
+.alumni-reissuance-wrapper .addphoto-btn
+{
+    border-radius: 5px;
+    padding: 5px 20px;
+    background: rgb(40,167,69);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    /* margin-top: 5px; */
+}
+
+.alumni-reissuance-wrapper .error-text
+{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    /* margin-top: -12px; */
+}
+
+@media (max-width: 600px) {
+
+
+    .alumni-reissuance-wrapper
+    {
+        padding: 20px;
+    }
+    
+    .alumni-reissuance-wrapper h2 
+    {
+        font-size: 15px;
+    }
+
+    .alumni-reissuance-wrapper p,
+    .alumni-reissuance-wrapper .fields .input-field label,
+    .alumni-reissuance-wrapper .fields .input-field input, select,
+    .alumni-reissuance-wrapper .addphoto-btn,
+    .alumni-reissuance-wrapper button[type="submit"]
+    {
+        font-size: 12px;
+    }
+
+    .alumni-reissuance-wrapper .addphoto img
+    {
+        height: 150px;
+        width: 250px;
+    }
+
+}
+
+
+
+@media(max-width: 540px){
+    
+    #alumni-reissuance-sec
+    {
+        padding: 60px 20px;
+        background: rgb(4, 85, 151);
+        width: 100%;
+        height: 100%;
+        margin-top: 70px;
+    }
+
+    .alumni-reissuance-wrapper .addphoto img
+    {
+        height: 200px;
+        width: 100%;
+    }
+
+  }
+
+  @media(max-width: 770px){
+    .alumni-reissuance-wrapper .fields .group
+
+    {
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+  }

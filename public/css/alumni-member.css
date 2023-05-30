@@ -1,0 +1,286 @@
+#alumni-member-sec
+{
+    padding: 70px 80px;
+    background: rgb(4, 85, 151);
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+
+#alumni_mem_form .error-text
+{
+    font-size: 13px;
+    color: red;
+}
+
+.alumni-member-wrapper
+{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.alumni-member-wrapper h2 
+{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+.alumni-member-wrapper p
+{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.alumni-member-wrapper hr
+{
+    border-top: dashed 3px;
+    margin-bottom: 15px;
+}
+.alumni-member-wrapper .fields
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.alumni-member-wrapper .group
+
+{
+    display: flex;
+    gap: 20px;
+}
+
+.alumni-member-wrapper .fields input
+{
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid rgb(154, 154, 154);
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 10px;
+    font-size: 15px;
+    outline: none;
+
+}
+
+.alumni-member-wrapper .sub-name
+{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.alumni-member-wrapper .fields label
+{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+
+/* PAYMENT */
+
+.pay_med_wrapper
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pay_med_title,
+.pay_med_price
+
+{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.alumni-id-wrapper .fields .pay_med
+{
+    display: flex;
+}
+
+.alumni-id-wrapper .fields .radio-field
+{
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+
+}
+
+
+
+.alumni-member-wrapper  .radio-field input,
+.alumni-member-wrapper  .radio-field label
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.pay_med_content
+{
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.pay_med_content #radio1-content
+{
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: #148b04;
+    display: flex;
+    flex-direction: column;
+}
+
+.pay_med_content #radio2-content
+{
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: #148b04;
+}
+
+.pay_med_content #radio2-content img
+{
+    border: 1px solid #000;
+    width: 200px;
+}
+
+.pay_med_content #radio2-content .pay_med_text
+{
+    display: flex;
+}
+
+.pay_med_content #radio2-content .pay_med_input
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pay_med_content #radio2-content .pay_med_input input
+{
+    padding:  0px 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    height: 38px;
+    width: 300px;
+}
+
+.alumni-member-wrapper button[type="submit"]
+{
+    padding: 10px 20px;
+    font-size: 15px;
+    background: rgb(3, 134, 29);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.alumni-member-wrapper button[type="button"]
+{
+
+    background: rgb(3, 134, 29);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+
+
+    .alumni-member-wrapper
+    {
+        padding: 20px;
+    }
+    
+    .alumni-member-wrapper h2 
+    {
+        font-size: 15px;
+    }
+
+    .alumni-member-wrapper p,
+    .alumni-member-wrapper .fields label,
+    .alumni-member-wrapper .fields  input, select,
+    .alumni-member-wrapper button[type="button"],
+    .alumni-member-wrapper button[type="submit"],
+    .pay_med_title,
+    .pay_med_price,
+    .pay_med input,
+    .pay_med label,
+    #radio1-content span,
+    .pay_med_text span,
+    .pay_med_input input,
+    .pay_med_input label
+    {
+        font-size: 12px;
+    }
+
+    .alumni-member-wrapper .addphoto img
+    {
+        height: 150px;
+        width: 250px;
+    }
+
+}
+
+
+
+
+@media(max-width: 540px){
+    
+    #alumni-member-sec
+    {
+        padding: 60px 20px;
+        background: rgb(4, 85, 151);
+        width: 100%;
+        height: 100%;
+        margin-top: 70px;
+    }
+
+    .alumni-member-wrapper .addphoto img
+    {
+        height: 200px;
+        width: 100%;
+    }
+
+    .pay_med_content #radio2-content .pay_med_input input
+    {
+        width: 100%;
+    }
+
+  }
+
+  @media(max-width: 770px){
+    .alumni-member-wrapper .group
+
+    {
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+  }

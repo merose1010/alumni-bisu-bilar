@@ -1,0 +1,42 @@
+.all-notif-section
+{
+    margin-top: 144px;
+    height: 100%;
+    width: 100%;
+    padding: 40px 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#myAlert
+{
+    font-size: 13px;
+}
+
+
+@media (max-width: 515px)
+{
+
+    .all-notif-section
+    {
+        padding: 20px 20px;
+    }
+}
+
+
+@media(max-width: 880px)
+{
+    /* TABLES */
+    #myAlert ,
+    .table-responsive,
+    #clientTable,
+    #clientTable thead ,
+    #clientTable tbody
+    {
+        font-size: 12px;
+    }
+
+    .all-notif-section .title
+    {
+        font-size: 14px;
+    }
+}

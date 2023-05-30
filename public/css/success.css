@@ -1,0 +1,165 @@
+/* ALUMNI ID & MEMBERSHIP */
+.success_page
+{
+    height: 100vh;
+    background: #fff;
+    /* margin-top: 70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+
+.success_page .content span
+{
+    color: #000;
+    font-size: 20px;
+    color: #126f28;
+
+}
+
+.success_page .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.success_page .content i
+{
+    font-size: 40px;
+    color: #2FAA4B;
+}
+
+.success_page .links
+{
+    margin-top: 15px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    gap: 10px;
+}
+
+.success_page .links a
+{
+    color: #126f28;
+}
+
+
+
+
+/* REISSUEANCE */
+.success_page_reissueance
+{
+    height: 100vh;
+    background: #fff;
+    /* margin-top: 70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+
+.success_page_reissueance .content span
+{
+    color: #000;
+    font-size: 20px;
+    color: #126f28;
+
+}
+
+.success_page_reissueance .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.success_page_reissueance .content i
+{
+    font-size: 40px;
+    color: #2FAA4B;
+}
+
+.success_page_reissueance .links
+{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.success_page_reissueance .links a
+{
+    color: #126f28;
+}
+
+
+/* ALREADY APPLIED PAGE */
+.already_applied
+{
+    height: 50vh;
+    background: #fff;
+    /* margin-top: 70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+
+.already_applied .content span
+{
+    color: #000;
+    font-size: 20px;
+    color: #126f28;
+
+}
+
+.already_applied .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.already_applied .content i
+{
+    font-size: 40px;
+    color: #2FAA4B;
+}
+
+
+@media (max-width: 600px) {
+    .success_page .content span,
+    .success_page .links span,
+    .success_page .links ,
+    .success_page_reissueance .content span,
+    .success_page_reissueance .links,
+    .success_page_reissueance .links span,
+    .already_applied .content span
+
+    {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .success_page .content i,
+    .success_page_reissueance .content i,
+    .already_applied .content i
+    {
+        font-size: 25px;
+    }
+}
